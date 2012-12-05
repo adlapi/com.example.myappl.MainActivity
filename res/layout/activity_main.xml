@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+         android:background="@drawable/qwertyuio"
+          android:textColor="#F8F8FF">
+
+    // listview
+    
+  <ListView
+ android:id="@+id/lvMain"
+ android:layout_width="match_parent"
+ android:layout_height="410dp"
+  android:textColor="#F8F8FF">
+</ListView>
+    
+    // лаяут нижний с кнопками действия
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal" 
+         android:textColor="#F8F8FF"
+            >
+
+ 
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="15pt"
+            android:layout_alignParentBottom="true"   
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Добавить"  
+            android:background="@drawable/qwertyu"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_weight="1"
+            android:textColor="#F8F8FF"  />
+        
+        <Button
+            android:id="@+id/button2"
+           android:layout_width="wrap_content"
+                    android:layout_height="15pt"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+         
+            android:text="Изменить" 
+             android:background="@drawable/qwertyu"
+             android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                     android:textColor="#F8F8FF"/>
+
+        <Button
+            android:id="@+id/button_del"
+           android:layout_width="wrap_content"
+                    android:layout_height="15pt"
+            android:layout_alignParentBottom="true"
+          
+            
+            android:text="Удалить"
+             android:background="@drawable/qwertyu"
+             android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="15dp"
+                     android:textColor="#F8F8FF"
+           />
+       
+    </LinearLayout>
+
+</RelativeLayout>

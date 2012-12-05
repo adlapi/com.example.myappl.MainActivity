@@ -1,0 +1,108 @@
+             <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/Widget"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/qwerty"
+               
+                    android:orientation="vertical" >
+
+  <TextView
+        android:id="@+id/widget_textview"
+        android:layout_width="146dp"
+        android:layout_height="25dp"
+        android:text="Задания:"
+        android:layout_marginLeft="7dip"
+        android:textColor="@android:color/white"
+         android:layout_marginTop="2dp" 
+            android:textSize="17sp"/>
+    
+                  <TextView
+                        android:id="@+id/task1"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                                          
+                        android:layout_marginLeft="10dip"
+                         android:layout_marginBottom="3dp"
+                          android:layout_marginRight="10dip"
+                            android:textSize="13sp" 
+                            android:background="@drawable/qwertyui"
+                            android:textColor="#F8F8FF"
+                          android:paddingLeft="7dp"
+                             />
+
+                    <TextView
+                        android:id="@+id/task2"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                                              android:textColor="#F8F8FF"
+                        android:layout_marginLeft="10dip" 
+                         android:layout_marginRight="10dip"
+                         android:layout_marginBottom="3dp"
+                         android:textSize="13sp"
+                         android:background="@drawable/qwertyui"
+                         android:paddingLeft="7dp" />
+
+                    <TextView
+                        android:id="@+id/task3"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                                         android:textColor="#F8F8FF"
+                        android:layout_marginLeft="10dip" 
+                         android:layout_marginBottom="3dp"
+                          android:layout_marginRight="10dip"
+                         android:textSize="13sp"
+                         android:background="@drawable/qwertyui" 
+                         android:paddingLeft="7dp"/>
+
+                    <TextView
+                        android:id="@+id/task4"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+              android:textColor="#F8F8FF"
+                        android:layout_marginLeft="10dip" 
+                        android:layout_marginRight="10dip"
+                         android:layout_marginBottom="3dp"
+                         android:textSize="13sp"
+                         android:background="@drawable/qwertyui"
+                         android:paddingLeft="7dp" />
+
+                    <TextView
+                        android:id="@+id/task5"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                    android:textColor="#F8F8FF"
+                        android:layout_marginLeft="10dip" 
+                         android:layout_marginBottom="3dp"
+                          android:layout_marginRight="10dip"
+                         android:textSize="13sp"
+                          android:background="@drawable/qwertyui" 
+                          android:paddingLeft="7dp"/>
+                    
+                    
+                    <LinearLayout 
+android:layout_height="wrap_content" 
+android:layout_width="match_parent" 
+android:id="@+id/linearLayout1" 
+android:orientation="horizontal">
+                         
+                 <TextView
+        android:id="@+id/button4"
+      android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+          android:textColor="#F8F8FF"
+          android:layout_marginBottom="3dp"
+          android:layout_marginLeft="10dip" 
+     
+        android:text=" " >
+    </TextView>
+                
+
+</LinearLayout> 
+
+  </LinearLayout>
+
+                
